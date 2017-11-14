@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleIoT", "ConsoleIoT\ConsoleIoT.csproj", "{0B0DD344-1554-4D6D-A6ED-F2BEB9DEFF19}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Settings", "..\Settings\Settings\Settings.shproj", "{E6454557-F259-4C83-B11E-B148C88EDFEF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Settings\Settings\Settings.projitems*{0b0dd344-1554-4d6d-a6ed-f2beb9deff19}*SharedItemsImports = 4
+		..\Settings\Settings\Settings.projitems*{e6454557-f259-4c83-b11e-b148c88edfef}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B0DD344-1554-4D6D-A6ED-F2BEB9DEFF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0DD344-1554-4D6D-A6ED-F2BEB9DEFF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0DD344-1554-4D6D-A6ED-F2BEB9DEFF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0DD344-1554-4D6D-A6ED-F2BEB9DEFF19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+		SolutionGuid = {80A5C662-5B9C-4954-BA1C-D3F39E6AE74A}
+	EndGlobalSection
+EndGlobal

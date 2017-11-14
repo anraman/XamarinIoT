@@ -12,7 +12,7 @@ namespace ConsoleIoTService
 
         public static async Task AddTagsAndQuery()
         {
-            var twin = await registryManager.GetTwinAsync("testDeviceConsole");
+            var twin = await registryManager.GetTwinAsync("testDeviceStandard");
             var patch =
                 @"{
              tags: {

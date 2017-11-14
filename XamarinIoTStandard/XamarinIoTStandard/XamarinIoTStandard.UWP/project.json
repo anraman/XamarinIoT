@@ -1,5 +1,10 @@
 ﻿{
   "dependencies": {
+    "DotNetty.Codecs.Mqtt": "0.4.7",
+    "DotNetty.Handlers": "0.4.7",
+    "DotNetty.Transport": "0.4.7",
+    "Microsoft.Azure.Devices.Client": "1.5.2",
+    "Microsoft.Azure.Devices.Shared": "1.1.1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
     "Xamarin.Forms": "2.4.0.74863"
   },

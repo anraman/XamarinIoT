@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetty.Codecs.Mqtt" Version="0.4.7" />
+    <PackageReference Include="DotNetty.Handlers" Version="0.4.7" />
+    <PackageReference Include="DotNetty.Transport" Version="0.4.7" />
+    <PackageReference Include="Microsoft.Azure.Devices.Client" Version="1.5.2" />
+    <PackageReference Include="Microsoft.Azure.Devices.Shared" Version="1.1.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.4.0.74863" />
   </ItemGroup>
+
+  <Import Project="..\..\Settings\Settings\Settings.projitems" Label="Shared" />
 
 </Project>

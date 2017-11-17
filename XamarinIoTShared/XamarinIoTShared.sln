@@ -15,8 +15,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Settings", "..\Settings\Set
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Settings\Settings\Settings.projitems*{643b211a-c84f-4218-86de-0e59fefd9aef}*SharedItemsImports = 4
 		XamarinIoTShared\XamarinIoTShared\XamarinIoTShared.projitems*{643b211a-c84f-4218-86de-0e59fefd9aef}*SharedItemsImports = 4
+		..\Settings\Settings\Settings.projitems*{84a5a4b9-88ea-4f65-9000-c1ef335f68c4}*SharedItemsImports = 4
 		XamarinIoTShared\XamarinIoTShared\XamarinIoTShared.projitems*{84a5a4b9-88ea-4f65-9000-c1ef335f68c4}*SharedItemsImports = 4
+		..\Settings\Settings\Settings.projitems*{ab40314f-143c-4732-91ec-d17f9c8b8eed}*SharedItemsImports = 4
 		XamarinIoTShared\XamarinIoTShared\XamarinIoTShared.projitems*{ab40314f-143c-4732-91ec-d17f9c8b8eed}*SharedItemsImports = 4
 		XamarinIoTShared\XamarinIoTShared\XamarinIoTShared.projitems*{cf7961d0-bf3a-4a1f-86a8-6bb4fa659cae}*SharedItemsImports = 13
 		..\Settings\Settings\Settings.projitems*{e6454557-f259-4c83-b11e-b148c88edfef}*SharedItemsImports = 13

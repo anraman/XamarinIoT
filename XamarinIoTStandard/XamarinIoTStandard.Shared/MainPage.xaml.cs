@@ -13,7 +13,7 @@ namespace XamarinIoTStandard
 {
     public partial class MainPage : ContentPage
     {
-        static string DeviceConnectionString = Settings.Settings.DeviceConnStrUWP;
+        static string DeviceConnectionString = Settings.Settings.DeviceConnStriOS;
         static DeviceClient Client = null;
         static TwinCollection reportedProperties = new TwinCollection();
 
@@ -22,7 +22,7 @@ namespace XamarinIoTStandard
             try
             {
                 Debug.WriteLine("Connecting to hub");
-                if (Device.RuntimePlatform == Device.Android)
+                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
                 {
                     Client = DeviceClient.CreateFromConnectionString(DeviceConnectionString);
                 }

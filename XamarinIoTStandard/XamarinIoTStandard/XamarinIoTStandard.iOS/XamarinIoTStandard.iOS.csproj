@@ -136,6 +136,9 @@
     <Reference Include="DotNetty.Transport, Version=0.4.7.0, Culture=neutral, PublicKeyToken=bc13ca065fa06c29, processorArchitecture=MSIL">
       <HintPath>..\..\packages\DotNetty.Transport.0.4.7\lib\netstandard1.3\DotNetty.Transport.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Azure.Amqp, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Azure.Amqp.2.1.2\lib\netstandard1.3\Microsoft.Azure.Amqp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Azure.Devices.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Azure.Devices.Client.1.5.2\lib\netstandard1.3\Microsoft.Azure.Devices.Client.dll</HintPath>
     </Reference>

@@ -3,7 +3,7 @@
     "Microsoft.Azure.Devices.Client": "1.6.0-preview-001",
     "Microsoft.Azure.Devices.Shared": "1.2.0-preview-001",
     "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
-    "Xamarin.Forms": "2.5.0.77107"
+    "Xamarin.Forms": "2.4.0.91020"
   },
   "frameworks": {
     "uap10.0.14393": {}

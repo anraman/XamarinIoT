@@ -13,7 +13,7 @@ namespace XamarinIoTShared
 {
     public partial class MainPage : ContentPage
     {
-        static string DeviceConnectionString = Settings.Settings.DeviceConnStrUWP;
+        static string DeviceConnectionString = Settings.Settings.DeviceConnStriOS;
         static DeviceClient Client = null;
         static TwinCollection reportedProperties = new TwinCollection();
 
@@ -22,11 +22,14 @@ namespace XamarinIoTShared
             try
             {
                 Debug.WriteLine("Connecting to hub");
-#if ANDROID
-                Client = DeviceClient.CreateFromConnectionString(DeviceConnectionString);
-#else
-                Client = DeviceClient.CreateFromConnectionString(DeviceConnectionString, TransportType.Mqtt);
-#endif
+                if (Device.RuntimePlatform == Device.Android || Device.RuntimePlatform == Device.iOS)
+                {
+                    Client = DeviceClient.CreateFromConnectionString(DeviceConnectionString);
+                }
+                else
+                {
+                    Client = DeviceClient.CreateFromConnectionString(DeviceConnectionString, TransportType.Mqtt);
+                }
                 Debug.WriteLine("Retrieving twin");
                 await Client.GetTwinAsync();
             }

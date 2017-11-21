@@ -14,7 +14,7 @@ namespace ConsoleIoTService
 
         public static async Task AddTagsAndQuery()
         {
-            var twin = await registryManager.GetTwinAsync("testUWP");
+            var twin = await registryManager.GetTwinAsync("testiOS");
             var patch =
                 @"{
              tags: {
@@ -37,7 +37,7 @@ namespace ConsoleIoTService
 
         static private async Task SetDesiredConfigurationAndQuery()
         {
-            var twin = await registryManager.GetTwinAsync("testUWP");
+            var twin = await registryManager.GetTwinAsync("testiOS");
             var patch = new
             {
                 properties = new

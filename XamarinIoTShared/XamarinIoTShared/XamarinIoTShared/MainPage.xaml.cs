@@ -13,7 +13,7 @@ namespace XamarinIoTShared
 {
     public partial class MainPage : ContentPage
     {
-        static string DeviceConnectionString = Settings.Settings.DeviceConnStriOS;
+        static string DeviceConnectionString = Settings.Settings.DeviceConnStrUWP;
         static DeviceClient Client = null;
         static TwinCollection reportedProperties = new TwinCollection();
 

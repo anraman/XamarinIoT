@@ -1,6 +1,6 @@
 # Using Azure IoT Hub Device Twins with Xamarin.Forms Apps
 
->For a full description of the problem/solution, please refer to [this]() blog post.
+>For a full description of the problem/solution, please refer to [this](https://whywontitbuild.com/2017/11/28/using-azure-iot-hub-device-twins-with-xamarin-forms-apps/) blog post.
 
 Sample Xamarin projects demonstrating how to use Device Twins with Xamarin.Forms apps. All samples are based on the following two tutorials (with modifications made for compatibility with Xamarin.Forms):
 
